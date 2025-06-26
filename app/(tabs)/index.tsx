@@ -1,10 +1,14 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import Idea from "../components/Idea";
 
 
 export default function Index() {
+
+
   return (
     <View>
-      <Text>this is the index page</Text>
+      <h1>this is the index page</h1>
+      <Idea/>
     </View>
   );
 }
