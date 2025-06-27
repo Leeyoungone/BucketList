@@ -1,3 +1,5 @@
+
+//event.target.value
 export function GET(request: Request) {
     console.log("get request received");
     return Response.json({ hello: 'world' });

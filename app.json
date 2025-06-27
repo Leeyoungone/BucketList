@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reonyagu1.BucketList"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/resized-image.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.reonyagu1.BucketList"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +34,12 @@
           "image": "./assets/images/resized-image.png",
           "imageWidth": 200,
           "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-sqlite",
+        {
+          "useLibSQL": true
         }
       ]
     ],
